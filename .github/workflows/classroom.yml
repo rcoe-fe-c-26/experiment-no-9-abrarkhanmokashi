@@ -45,7 +45,7 @@ jobs:
         setup-command: ''
         command: python main.py
         input: "-3"
-        expected-output: Factorial of 13 is Not Defined
+        expected-output: Factorial of -3 is Not Defined
         comparison-method: contains
         timeout: 10
         max-score: 2
